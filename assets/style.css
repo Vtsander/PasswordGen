@@ -1,0 +1,37 @@
+header {
+    padding: 5%;
+    background: blueviolet;
+    color: aliceblue;
+}
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+}
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    border-bottom: solid;
+    border-color: grey;
+}  
+.gen {
+    text-align: center;
+    border: thin solid;
+    border-color: grey;
+}
+#pw {
+    color: grey;
+    border: dotted;
+    border-color: grey;
+}
+button {
+    cursor: default;
+    border-radius: 20px;
+    background-color: cadetblue;
+}
+@media screen and (min-width: 768px) {
+    header,
+    .gen {
+      padding: 5px;
+    }
+  }
