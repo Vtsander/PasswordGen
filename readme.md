@@ -1,61 +1,21 @@
 Password Generator
 
-TO DO:
-    Create all the base html
-    Add direction to javascript
-    Add direction to css
-    Section everything out for css styling
-    Style header
-    Center the password section
-    Add some personal styling
-    Add generate button
-    Decorate the generate button
-    Add in javascript
-    Make button work
-    Add what the passwords will contain
+Description:
 
+    An application made for everyday use. Can create a password within the specifications made by the user.
 
-What it's supposed to do:
-    Centers everything to the middle
-    Add color and styling to the header
-    Make textbox look better
-    Make button functional
-    Javascript will create a password after button is pressed
+Uses:
 
-Errors:
-    Centering the header took a few tries
-    Generate password was centered but not the bottom two parts
-    Textbox was the wrong sizing
-    The border for the password areas were super thick, wanted thin
-    Added Javascript, button did not work and password would not generate
-    
+    Assists in creating a strong randomized password
+    Gives the user the choice in what is in the password
 
-Assignment Instructions:
+Screenshot of Page
 
-User Story:
-    AS AN employee with access to sensitive data
-    I WANT to randomly generate a password that meets certain criteria
-    SO THAT I can create a strong password that provides greater security
+<img src="./assets/images/passgen.png">
+<img src="./assets/images/passgennum.png">
+<img src="./assets/images/passgenlow.png">
+<img src="./assets/images/passgenup.png">
+<img src="./assets/images/passgennumbs.png">
+<img src="./assets/images/passgenspecs.png">
 
-Acceptance Criteria:
-    GIVEN I need a new, secure password
-    WHEN I click the button to generate a password
-    THEN I am presented with a series of prompts for password criteria
-
-    WHEN prompted for password criteria
-    THEN I select which criteria to include in the password
-
-    WHEN prompted for the length of the password
-    THEN I choose a length of at least 8 characters and no more than 128 characters
-
-    WHEN asked for character types to include in the password
-    THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-
-    WHEN I answer each prompt
-    THEN my input should be validated and at least one character type should be selected
-
-    WHEN all prompts are answered
-    THEN a password is generated that matches the selected criteria
-
-    WHEN the password is generated
-    THEN the password is either displayed in an alert or written to the page
+Link: https://vtsander.github.io/PasswordGen/
